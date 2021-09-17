@@ -1,0 +1,106 @@
+/* poppins-regular - latin */
+/* ubuntu-300 - latin_cyrillic */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+    url("./fonts/ubuntu-v15-latin_cyrillic-300.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/ubuntu-v15-latin_cyrillic-300.woff") format("woff"); /* Modern Browsers */
+}
+/* ubuntu-regular - latin_cyrillic */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./fonts/ubuntu-v15-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/ubuntu-v15-latin_cyrillic-regular.woff") format("woff"); /* Modern Browsers */
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/poppins-v15-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v15-latin-regular.woff")
+      format("woff");
+}
+/* poppins-500 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/poppins-v15-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v15-latin-500.woff")
+      format("woff");
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/poppins-v15-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v15-latin-600.woff")
+      format("woff");
+}
+/* poppins-600italic - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 600;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/poppins-v15-latin-600italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v15-latin-600italic.woff")
+      format("woff");
+}
+/* poppins-500italic - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/poppins-v15-latin-500italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v15-latin-500italic.woff")
+      format("woff");
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/poppins-v15-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v15-latin-700.woff")
+      format("woff");
+}
+/* poppins-700italic - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/poppins-v15-latin-700italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v15-latin-700italic.woff")
+      format("woff");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Poppins", "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+}
+body {
+  background-color: white;
+}
